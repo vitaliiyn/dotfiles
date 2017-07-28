@@ -6,7 +6,9 @@
 [color]
 	ui = true
 [push]
-	default = matching
+	default = upstream
+[merge]
+  ff = only
 [credential]
 	helper = cache --timeout=360000
 [alias]
